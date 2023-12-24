@@ -1,0 +1,51 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  font-size: calc(15px-3vw);
+  font-family: Inter;
+  src: url(../Inter-Regular.ttf);
+}
+
+html {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.titlehead {
+  margin: 30px;
+  text-align: center;
+}
+
+.titlehead h1 {
+  font-size: calc(15px-3vw);
+}
+
+.titlehead img {
+  width: 250px;
+}
+
+.titlehead p {
+  margin-top: 30px;
+  text-align: justify;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.recipes {
+  height: auto;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 30px;
+}
