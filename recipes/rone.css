@@ -2,4 +2,80 @@
   box-shadow: 0 0 15px 1px rgb(255, 200, 72);
   padding: 30px;
   margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  max-width: 700px;
+}
+
+#roneRecipe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 1px black;
+  max-width: 100%;
+  width: 75rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.roneHeader {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roneHeader span {
+  cursor: pointer;
+  font-size: 24px;
+  color: red;
+}
+
+.roneDesc {
+  white-space: pre-wrap;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-align: justify;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.roneDesc img {
+  width: 70%;
+  max-width: 230px;
+  height: auto;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .roneDesc {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .roneDesc img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .roneInfo {
+    flex-direction: column;
+    gap: 5px!important;
+  }
+}
+
+.roneInfo {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px
 }
