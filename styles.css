@@ -5,10 +5,6 @@
   src: url(../Inter-Regular.ttf);
 }
 
-main {
-  margin: 30px;
-}
-
 .overlay {
   position: fixed;
   top: 0;
@@ -69,4 +65,12 @@ main {
   max-width: 220px;
   height: auto;
   border-radius: 30px;
+}
+
+footer {
+  background-color: #ffd676;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
 }
