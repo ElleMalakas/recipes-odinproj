@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-size: calc(45px - 35px);
+  font-size: 15px;
   font-family: Inter;
   src: url(../Inter-Regular.ttf);
 }
@@ -34,7 +34,7 @@
 }
 
 .titlehead h1 {
-  font-size: calc(55px - 35px);
+  font-size: 25px;
 }
 
 .titlehead img {
