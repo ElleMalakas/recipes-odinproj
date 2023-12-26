@@ -77,7 +77,6 @@ footer {
 
 @media (max-width: 768px) {
   footer {
-    flex-direction: row;
-    text-align: justify;
+    flex-direction: column;
   }
 }
