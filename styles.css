@@ -74,3 +74,10 @@ footer {
   justify-content: space-between;
   align-items: last baseline;
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: row;
+    text-align: justify;
+  }
+}
